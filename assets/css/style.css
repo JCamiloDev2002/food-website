@@ -1,24 +1,61 @@
-    /*Nav*/
+/*General config*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+:root{
+    --green:#27ae60;
+    --black:#192a56;
+    --light-color:#666;
+    --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+}
+
+*{
+    font-family: 'Nunito', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none; border:none;
+    text-transform: capitalize;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+/*End general config*/
+
+/*Paleta de colores*/
+/*
+ color:#27ae60
+color:#192a56
+color:#666
+color:#eee
+color:#fff
+color:rgba(0,0,0,.8)
+color:rgba(0,0,0,.2)
+color:rgba(0,0,0,.1)
+*/
+/*End paleta de colores/*
+/*Nav*/
     
-    /*End Nav*/
+/*End Nav*/
     
-    /*Home*/
-    /*End Home/*
+ /*Home*/
+/*End Home/*
     
-    /*Dishes*/
-    /*End Dishes*/
+ /*Dishes*/
+/*End Dishes*/
     
-    /*About*/
-    /*End About*/
+/*About*/
+/*End About*/
     
-    /*Menu*/
-    /*End Menu*/
+/*Menu*/
+/*End Menu*/
     
-    /*Review*/
-    /*End Review*/
+/*Review*/
+/*End Review*/
     
-    /*Order*/
-    /*End Order*/
+/*Order*/
+/*End Order*/
     
-    /*Footer*/
-    /*End Footer*/
+/*Footer*/
+/*End Footer*/
