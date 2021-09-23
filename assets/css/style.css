@@ -36,7 +36,63 @@ color:rgba(0,0,0,.1)
 */
 /*End paleta de colores/*
 /*Nav*/
-    
+.first-div{
+    margin-left: 50px;
+}
+.tittle{
+    color:var(--black);
+    font-size: 20px;
+}
+.main-icon{
+    color: var(--green);
+    display: inline;
+    font-size: 20px;
+}
+.button-nav__link{
+    background-color: var(--green);
+    border-radius: 6px;
+    width: 55px;
+    height: 23px;
+    padding-bottom: 25px;
+} 
+.button-nav__link-color{
+    color: #fff;
+}
+.boton-redondo{
+    background-color:rgba(0,0,0,.1);
+    color:var(--black);
+    font-size: 12px;    
+    border-radius: 50%;
+    margin: auto;
+    position:relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: 5px 5px;
+    padding: 8px;
+    text-align: center;
+}
+.secundary-boton{
+    position: relative;
+    right: 100px;
+}
+.boton-redondo:hover{
+    background: var(--green);
+    color: #fff;
+    transform: rotate(360deg);
+}
+.fondo:hover{
+    background-color: var(--green);
+    border-radius: 6px;
+    width: 55px;
+    height: 23px;
+    padding-bottom: 25px;background: var(--green);
+    border-radius: 6px;
+    color: #fff;
+    text-align: center;
+}
+
 /*End Nav*/
     
  /*Home*/
