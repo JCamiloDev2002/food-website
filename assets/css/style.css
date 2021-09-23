@@ -70,7 +70,7 @@ color:rgba(0,0,0,.1)
     top: 0;
     bottom: 0;
     margin: 5px 5px;
-    padding: 8px;
+    padding: 7px;
     text-align: center;
 }
 .secundary-boton{
@@ -82,15 +82,24 @@ color:rgba(0,0,0,.1)
     color: #fff;
     transform: rotate(360deg);
 }
+.fondo{
+    color: var(--light-color);
+}
+.fondo a{
+    color: inherit;
+}
 .fondo:hover{
     background-color: var(--green);
     border-radius: 6px;
     width: 55px;
     height: 23px;
-    padding-bottom: 25px;background: var(--green);
+    padding-bottom: 25px;
     border-radius: 6px;
     color: #fff;
     text-align: center;
+}
+.fondo a:hover{
+    color: inherit;
 }
 
 /*End Nav*/
