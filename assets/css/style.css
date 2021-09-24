@@ -41,18 +41,18 @@ color:rgba(0,0,0,.1)
 }
 .tittle{
     color:var(--black);
-    font-size: 20px;
+    font-size: 25px;
 }
 .main-icon{
     color: var(--green);
     display: inline;
-    font-size: 20px;
+    font-size: 25px;
 }
 .button-nav__link{
     background-color: var(--green);
     border-radius: 6px;
-    width: 55px;
-    height: 23px;
+    width: 60px;
+    height: 30px;
     padding-bottom: 25px;
 } 
 .button-nav__link-color{
@@ -72,6 +72,7 @@ color:rgba(0,0,0,.1)
     margin: 5px 5px;
     padding: 7px;
     text-align: center;
+    margin:0.5px 0.5px;
 }
 .secundary-boton{
     position: relative;
@@ -91,8 +92,8 @@ color:rgba(0,0,0,.1)
 .fondo:hover{
     background-color: var(--green);
     border-radius: 6px;
-    width: 55px;
-    height: 23px;
+    width: 60px;
+    height: 30px;
     padding-bottom: 25px;
     border-radius: 6px;
     color: #fff;
