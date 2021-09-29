@@ -1,25 +1,27 @@
 /*General config*/
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap");
 
-:root{
-    --green:#27ae60;
-    --black:#192a56;
-    --light-color:#666;
-    --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+:root {
+  --green: #27ae60;
+  --black: #192a56;
+  --light-color: #666;
+  --box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
 }
 
-*{
-    font-family: 'Nunito', sans-serif;
-    margin:0; padding:0;
-    box-sizing: border-box;
-    text-decoration: none;
-    outline: none; border:none;
-    text-transform: capitalize;
+* {
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
 }
 
-html{
-    font-size: 62.5%;
-    overflow-x: hidden;
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
 }
 /*End general config*/
 
@@ -36,26 +38,87 @@ color:rgba(0,0,0,.1)
 */
 /*End paleta de colores/*
 /*Nav*/
-    
+
 /*End Nav*/
-    
- /*Home*/
+
+/*Home*/
+
+.home {
+  width: 100%;
+  height: 100vh;
+  padding: 60px 9% 2rem;
+  background-color: #eee;
+}
+.slider {
+  width: inherit;
+  height: inherit;
+}
+.swiper-slide {
+  display: flex;
+  height: 100%;
+}
+.swiper-slide > div {
+  width: 50%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swiper-slide .content {
+  /* padding: 0 40px; */
+}
+.swiper-slide .content span {
+  color: #27ae60;
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+.swiper-slide .content h1 {
+  color: var(--black);
+  font-size: 6.5rem;
+}
+.swiper-slide .content p {
+  color: var(--light-color);
+  font-size: 2.2em;
+}
+.swiper-slide .content a {
+  display: inline-block;
+  width: auto;
+  margin-top: 20px;
+  padding: 8px 30px;
+  border-radius: 5px;
+  background-color: var(--black);
+  color: #fff;
+  font-size: 1.8rem;
+}
+.swiper-slide .photo {
+  display: flex;
+  align-items: center;
+}
+.swiper-slide .photo img {
+  width: 100%;
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--green);
+}
+
 /*End Home/*
     
  /*Dishes*/
 /*End Dishes*/
-    
+
 /*About*/
 /*End About*/
-    
+
 /*Menu*/
 /*End Menu*/
-    
+
 /*Review*/
 /*End Review*/
-    
+
 /*Order*/
 /*End Order*/
-    
+
 /*Footer*/
 /*End Footer*/
