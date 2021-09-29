@@ -16,25 +16,14 @@
     outline: none; border:none;
     text-transform: capitalize;
 }
-
+body{
+    padding-top: 50px;
+}
 html{
     font-size: 62.5%;
     overflow-x: hidden;
 }
 /*End general config*/
-
-/*Paleta de colores*/
-/*
- color:#27ae60
-color:#192a56
-color:#666
-color:#eee
-color:#fff
-color:rgba(0,0,0,.8)
-color:rgba(0,0,0,.2)
-color:rgba(0,0,0,.1)
-*/
-/*End paleta de colores/*
 /*Nav*/
 .first-div{
     margin-left: 50px;
@@ -122,44 +111,56 @@ color:rgba(0,0,0,.1)
 #galeria img{
     width: 100%;
     height: 150px;
+    padding-top: 15px;
 }
 .carrito{
     background-color: var(--black);
     color: #fff;
+    border-radius: 2px;
+    padding: 5px 15px;
+}
+.carrito:hover{
+    background-color: var(--green);
+    padding: 7px 17px;
+}
+.precios{
+    display: inline-block;
+    color: var(--green);
+    font-size: 14px;
+    margin-left: 5px;
 }
 /*boton de corazon*/
-/* .circle-menu{
-    z-index: 999999999;
+.circle-menu{
     display: inline;
-    background-color:#fff;
-    color:var(--black);
-    font-size: 12px;    
+    background-color: #fff;
+    color: var(--black);
     border-radius: 50%;
-    margin: auto;
-    position:relative;
-    left: 120px;
-    right: 0;
-    top: 30px;
-    bottom: 0;
     padding: 8px;
     text-align: center;
-    margin:0.5px 0.5px;
-    border-style: none;
+    position: absolute;
+    right: 20px;
+    top: 15px;
 }
-.circle-menu a{
-    color: inherit;
-}
-.cicle-menu:hover{
+.circle-menu:hover{
     background-color: var(--green);
     color: #fff;
-} */
+}
+/*end boton*/
 .tittle-menu{
+    text-align: center;
+    color: var(--black);
+    font-size: 3rem;
+    padding-bottom: 2rem;
+    text-transform: uppercase;
     font-weight: bold;
 }
 .subtittle-menu{
+    text-align: centers;
     color: var(--green);
     font-weight: bold;
     margin-bottom: 0px;
+    padding-top: 1rem;
+    font-size: 2rem;
 }
 .tittle-plate{
     color: var(--black);
@@ -167,8 +168,25 @@ color:rgba(0,0,0,.1)
     font-weight: bold;
 }
 #galeria div{
-    border: 0.5px solid ;
+    border: 1p;
     margin: 0 ;
+    padding-bottom: 8px;
+    margin-top: 6px;
+    box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+    border-radius: .5rem;
+    border:.1rem solid rgba(0,0,0,.2);    
+}
+#galeria .row{
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+.estrellas{
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.estrellas i{
+    color: var(--green);
 }
 /*End Menu*/
     
