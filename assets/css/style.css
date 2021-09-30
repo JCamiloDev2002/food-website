@@ -164,6 +164,10 @@ html{
 /*End About*/
     
 /*Menu*/
+#galeria{
+    position: relative;
+    left: 150px;
+}
 .galeria .col-lg-4{
     padding: 25px;
     margin: 0;
@@ -254,6 +258,24 @@ html{
 /*End Review*/
     
 /*Order*/
+
+#formulario input{
+    background-color: #eee;
+    border-radius: .5rem;
+    padding-top:7px ;
+    padding-bottom: 7px;
+    padding-right: 180px;
+    padding-left: 7px;
+}
+#formulario textarea{
+    background-color: #eee;
+    border-radius: .5rem;
+    padding-left:7px ;
+    padding-top: 7px;
+}
+#formulario label{
+    display: block;
+}
 /*End Order*/
     
 /*Footer*/
