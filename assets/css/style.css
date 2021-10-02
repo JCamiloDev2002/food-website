@@ -155,9 +155,67 @@ html{
 .swiper-pagination-bullet-active {
   background: var(--green);
 }
+.home{
+  background-color: #fff;
+}
 /*End Home/*
     
  /*Dishes*/
+ .dishes{
+   background-color: #eee;
+ }
+.dishes-container{
+  display:flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-wrap:wrap;
+  gap:20px
+ }
+.dishes-container div{
+  background-color: #fff;
+  width:329px;
+  height: 368px;
+  margin-bottom: 20px;
+  box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+  border-radius: 5px;
+}
+.dishes-container__content button{
+  text-align: center;
+  position: relative;
+  width: 150px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 5px;
+  top: 70px;
+  left: 20px;
+  right: 30px;
+}
+.dishes-container__content h2{
+  font-size: 25px;
+  position: relative;
+  top: 40px;
+}
+.dishes-container__content p{
+  font-size: 25px;
+  font-weight: bold;
+  position: relative;
+  top: 70px;
+  right: 10px;
+}
+.dishes-container__content i{
+  font-size: 20px;
+}
+.dishes-container__content .estrellas{
+  position: relative;
+  top: 50px;
+}
+.dishes-container__content img{
+  position: relative;
+  top: 30px;
+  width: 170px;
+  height: 170px;
+}
 /*End Dishes*/
     
 /*About*/
