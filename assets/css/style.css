@@ -225,6 +225,8 @@ html{
 #galeria{
     position: relative;
     left: 150px;
+    display: flex;
+    gap: 20px;
 }
 .galeria .col-lg-4{
     padding: 25px;
