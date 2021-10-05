@@ -219,6 +219,75 @@ html{
 /*End Dishes*/
     
 /*About*/
+.about {
+  padding: 0 15rem;
+}
+.about-content {
+  display: flex;
+  align-items: center;
+  color: var(--black);
+}
+.about-content .about-img {
+  width: 50%;
+  /* padding: 5rem 0 0; */
+}
+.about-content .text-about {
+  width: 50%;
+}
+.about-img img {
+  width: 100%;
+}
+.about-content .text-about h2 {
+  margin-bottom: 1.5rem;
+  font-size: 4rem;
+  font-weight: 700;
+}
+.about-content .text-about p {
+  width: 100%;
+  font-size: 1.5rem;
+  color: #666;
+  line-height: 3rem;
+}
+.text-about .features {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+.about-feature {
+  display: flex;
+  justify-content: center;
+  flex: 1 1 17rem;
+  gap: 1rem;
+  align-items: center;
+
+  padding: 1.5rem 2rem;
+  border-radius: 5px;
+  border: solid 1px rgba(0, 0, 0, 0.2);
+  background-color: #eee;
+  font-size: 1.5rem;
+}
+.about-feature i {
+  font-size: 2.5rem;
+  color: var(--green);
+}
+.text-about a {
+  display: inline-block;
+  padding: 1rem 4rem;
+  margin-top: 2rem;
+
+  border-radius: 5px;
+  font-size: 1.7rem;
+  background-color: var(--black);
+  color: white;
+  transition: background-color linear 0.2s, letter-spacing linear 0.2s;
+}
+.text-about a:hover {
+  background-color: var(--green);
+  letter-spacing: 2px;
+  color: white;
+  text-decoration: none;
+}
+
 /*End About*/
     
 /*Menu*/
